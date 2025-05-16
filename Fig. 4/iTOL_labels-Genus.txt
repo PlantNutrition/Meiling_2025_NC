@@ -1,0 +1,22 @@
+LABELS	
+SEPARATOR TAB	
+DATA	
+OTU4785	Bacillus_4785
+OTU6500	Bacillus_6500
+OTU6546	Bacillus_6546
+OTU59	Staphylococcus_59
+OTU4774	Bacillus_4774
+OTU6526	Bacillus_6526
+OTU1566	Bhargavaea_1566
+OTU4834	Brucella_4834
+OTU17	Klebsiella_17
+OTU169	Chryseobacterium_169
+OTU4848	Cellulosimicrobium_4848
+OTU4692	Sphingobacterium_4692
+OTU6474	Pantoea_6474
+OTU4787	Enterobacter_4787
+OTU6464	Pantoea_6464
+OTU4708	Stenotrophomonas_4708
+OTU4723	Agrobacterium_4723
+OTU5824	Agrobacterium_5824
+OTU4776	Pseudomonas_4776

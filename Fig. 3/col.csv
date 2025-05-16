@@ -1,0 +1,30 @@
+Level2,Enzyme1,Enzyme2,Enzyme3,Enzyme4,Enzyme5
+GH48,Cellulase,Cellulase,Endo-glucanase,Endo-glucanase,Endo-glucanase
+GH9,Cellulase,Cellulase,Endo-glucanase,Exo-glucanase,¦Â-glucosidase
+GH51,Cellulase,Hemicellulase,Endo-glucanase,Endo-xylanase,¦Â-xylosidase
+GH16_21,Cellulase,Hemicellulase,Endo-glucanase,¦Â-xylosidase,
+GH3,Cellulase,Hemicellulase,¦Â-glucosidase,¦Â-xylosidase,
+GH1,Cellulase,Hemicellulase,¦Â-glucosidase,¦Â-xylosidase,¦Â-mannosidase
+GH10,Hemicellulase,Hemicellulase,Endo-xylanase,,
+GH11,Hemicellulase,Hemicellulase,Endo-xylanase,,
+GH30_8,Hemicellulase,Hemicellulase,Endo-xylanase,,
+GH5_8,Hemicellulase,Hemicellulase,Endo-mannanase,,
+GH5_7,Hemicellulase,Hemicellulase,Endo-mannanase,¦Â-mannosidase,
+GH125,Hemicellulase,Hemicellulase,Exo-mannanase,,
+GH120,Hemicellulase,Hemicellulase,¦Â-xylosidase,,
+GH43_11,Hemicellulase,Hemicellulase,¦Â-xylosidase,,
+GH43_12,Hemicellulase,Hemicellulase,¦Â-xylosidase,,
+GH38,Hemicellulase,Hemicellulase,¦Á-mannosidase,,
+GH2,Hemicellulase,Hemicellulase,¦Â-mannosidase,Debranching enzymes,
+CE12,Hemicellulase,Hemicellulase,Deacetylase,,
+CE14,Hemicellulase,Hemicellulase,Deacetylase,,
+CE4,Hemicellulase,Hemicellulase,Deacetylase,,
+CE7,Hemicellulase,Hemicellulase,Deacetylase,,
+GH127,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH31,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH35,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH4,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH42,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH43_26,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH43_4,Hemicellulase,Hemicellulase,Debranching enzymes,,
+GH43_5,Hemicellulase,Hemicellulase,Debranching enzymes,,

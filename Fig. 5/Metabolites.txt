@@ -1,0 +1,9 @@
+metab 	B50	B50S	B52	B52S	B103	B103S	B290	B290S
+N-Acetyl-D-Galactosamine	7.805	7.248	7.969	7.08				
+Fructosyl-Lysine 	6.933	6.328	6.71	5.45				
+N-Acetylmuramate 	6.832	6.346	6.931	6.18				
+Fructose-6-Phosphate	4.637	3.793						
+Gulonic Acid			5.463	4.983	5.611	5.398	5.666	5.34
+Adp-Glucose 	6.386	4.863	6.257	4.07	6.189	5.754	6.306	5.543
+Myo-Inositol 			4.803	4.351				
+2-Isopropylmalic Acid 			6.909	6.344				

@@ -1,0 +1,71 @@
+LABELS
+SEPARATOR TAB
+DATA
+wheatSN2D142.bin3	Enterococcus
+wheatSN2D71.bin10	Enterococcus
+wheatSN2D73.bin10	Enterococcus
+wheatSN2D72.bin6	Desemzia
+wheatSN2D71.bin12	Staphylococcus Bin12
+wheatSN2D73.bin2	Staphylococcus Bin2
+wheatSN2D71.bin14	Staphylococcus Bin 14
+wheatSN2D72.bin5	Solibacillus
+wheatSN2D71.bin16	Bacillus Bin16
+wheatSN2D142.bin9	Bacillus Bin9
+wheatSN2D71.bin1	Bacillus Bin1
+wheatSN2D73.bin7	Corynebacterium
+wheatSN2D142.bin5	Leucobacter
+wheatSN2D141.bin6	Brachybacterium
+wheatSN0D73.bin6	Acinetobacter
+wheatSN2D71.bin5	Acinetobacter
+wheatSN2D142.bin12	Enterobacter
+wheatSN0D142.bin12	Enterobacter
+wheatSN0D02.bin1	Pantoea
+wheatSN2D142.bin7	Pantoea
+wheatSN0D71.bin3	Erwinia
+wheatSN2D143.bin1	Stenotrophomonas
+wheatSN0D143.bin6	Stenotrophomonas
+wheatSN2D73.bin1	Ralstonia
+wheatSN0D73.bin1	Agrobacterium
+wheatSN2D141.bin3	Ochrobactrum
+wheatSN2D143.bin4	Ochrobactrum
+wheatSN2D141.bin16	Brevundimonas
+wheatSN0D143.bin11	Chryseobacterium
+wheatSN2D142.bin2	Sphingobacterium
+wheatSN2D143.bin3	Sphingobacterium
+wheatSN0D142.bin6	Pseudosphingobacterium
+wheatSN2D71.bin20	Oceanobacillus
+wheatSN2D72.bin9	Ornithinibacillus
+wheatSN0D622.bin5	Mycobacterium
+wheatSN0D621.bin5	Mycobacterium
+wheatSN0D1873.bin10	Mycobacterium
+wheatSN0D623.bin4	Micromonospora
+wheatSN0D1873.bin4	Streptomyces
+wheatSN0D72.bin5	Microbacterium
+wheatSN2D141.bin12	Microbacterium
+wheatSN2D621.bin1	Microbacterium
+wheatSN0D1873.bin7	Promicromonospora
+wheatSN2D72.bin12	Brachybacterium
+wheatSN0D1872.bin7	Jiangella
+wheatSN2D622.bin7	Patulibacter
+wheatSN2D1871.bin11	Patulibacter
+wheatSN0D71.bin4	Pseudomonas
+wheatSN0D143.bin7	Stenotrophomonas
+wheatSN0D143.bin1	Pseudoxanthomonas
+wheatSN0D623.bin1	ZC4RG30
+wheatSN0D1872.bin3	Steroidobacter
+wheatSN2D1873.bin6	Cupriavidus
+wheatSN0D142.bin3	Bordetella
+wheatSN2D141.bin2	Candidimonas
+wheatSN2D72.bin3	Pseudochrobactrum
+wheatSN0D141.bin19	Kaistia
+wheatSN0D142.bin7	Camelimonas
+wheatSN0D1873.bin11	NIC37A-2
+wheatSN2D1871.bin4	PMG-095
+wheatSN0D141.bin8	Myroides
+wheatSN0D141.bin20	Myroides
+wheatSN2D141.bin15	Moheibacter
+wheatSN0D141.bin6	Moheibacter
+wheatSN2D1872.bin3	Unclassified 
+wheatSN2D141.bin11	Sphingobacterium
+wheatSN2D141.bin1	Sphingobacterium
+wheatSN0D141.bin16	Niabella

@@ -1,0 +1,77 @@
+TREE_COLORS						
+SEPARATOR TAB						
+COLOR	#377EB8					
+DATASET_LABEL	Phylum					
+LEGEND_COLORS	#377EB8	#FF7F00	#4DAF4A	#E41A1C	#F781BF	#984EA3
+LEGEND_LABELS	Actinobacteriota	Alphaproteobacteria	Bacteroidota	Firmicutes	Gammaproteobacteria	Myxococcota
+LEGEND_SHAPES	1	1	1	1	1	1
+LEGEND_TITLE	Phylum					
+DATA						
+wheatSN2D142.bin3	range	#E41A1C	Firmicutes			
+wheatSN2D71.bin10	range	#E41A1C	Firmicutes			
+wheatSN2D73.bin10	range	#E41A1C	Firmicutes			
+wheatSN2D72.bin6	range	#E41A1C	Firmicutes			
+wheatSN2D71.bin12	range	#E41A1C	Firmicutes			
+wheatSN2D73.bin2	range	#E41A1C	Firmicutes			
+wheatSN2D71.bin14	range	#E41A1C	Firmicutes			
+wheatSN2D72.bin5	range	#E41A1C	Firmicutes			
+wheatSN2D71.bin16	range	#E41A1C	Firmicutes			
+wheatSN2D142.bin9	range	#E41A1C	Firmicutes			
+wheatSN2D71.bin1	range	#E41A1C	Firmicutes			
+wheatSN2D73.bin7	range	#377EB8	Actinobacteriota			
+wheatSN2D142.bin5	range	#377EB8	Actinobacteriota			
+wheatSN2D141.bin6	range	#377EB8	Actinobacteriota			
+wheatSN0D73.bin6	range	#F781BF	Gammaproteobacteria			
+wheatSN2D71.bin5	range	#F781BF	Gammaproteobacteria			
+wheatSN2D142.bin12	range	#F781BF	Gammaproteobacteria			
+wheatSN0D142.bin12	range	#F781BF	Gammaproteobacteria			
+wheatSN0D02.bin1	range	#F781BF	Gammaproteobacteria			
+wheatSN2D142.bin7	range	#F781BF	Gammaproteobacteria			
+wheatSN0D71.bin3	range	#F781BF	Gammaproteobacteria			
+wheatSN2D143.bin1	range	#F781BF	Gammaproteobacteria			
+wheatSN0D143.bin6	range	#F781BF	Gammaproteobacteria			
+wheatSN2D73.bin1	range	#F781BF	Gammaproteobacteria			
+wheatSN0D73.bin1	range	#FF7F00	Alphaproteobacteria			
+wheatSN2D141.bin3	range	#FF7F00	Alphaproteobacteria			
+wheatSN2D143.bin4	range	#FF7F00	Alphaproteobacteria			
+wheatSN2D141.bin16	range	#FF7F00	Alphaproteobacteria			
+wheatSN0D143.bin11	range	#4DAF4A	Bacteroidota			
+wheatSN2D142.bin2	range	#4DAF4A	Bacteroidota			
+wheatSN2D143.bin3	range	#4DAF4A	Bacteroidota			
+wheatSN0D142.bin6	range	#4DAF4A	Bacteroidota			
+wheatSN2D71.bin20	range	#E41A1C	Firmicutes			
+wheatSN2D72.bin9	range	#E41A1C	Firmicutes			
+wheatSN0D622.bin5	range	#377EB8	Actinobacteriota			
+wheatSN0D621.bin5	range	#377EB8	Actinobacteriota			
+wheatSN0D1873.bin10	range	#377EB8	Actinobacteriota			
+wheatSN0D623.bin4	range	#377EB8	Actinobacteriota			
+wheatSN0D1873.bin4	range	#377EB8	Actinobacteriota			
+wheatSN0D72.bin5	range	#377EB8	Actinobacteriota			
+wheatSN2D141.bin12	range	#377EB8	Actinobacteriota			
+wheatSN2D621.bin1	range	#377EB8	Actinobacteriota			
+wheatSN0D1873.bin7	range	#377EB8	Actinobacteriota			
+wheatSN2D72.bin12	range	#377EB8	Actinobacteriota			
+wheatSN0D1872.bin7	range	#377EB8	Actinobacteriota			
+wheatSN2D622.bin7	range	#377EB8	Actinobacteriota			
+wheatSN2D1871.bin11	range	#377EB8	Actinobacteriota			
+wheatSN0D71.bin4	range	#F781BF	Gammaproteobacteria			
+wheatSN0D143.bin7	range	#F781BF	Gammaproteobacteria			
+wheatSN0D143.bin1	range	#F781BF	Gammaproteobacteria			
+wheatSN0D623.bin1	range	#F781BF	Gammaproteobacteria			
+wheatSN0D1872.bin3	range	#F781BF	Gammaproteobacteria			
+wheatSN2D1873.bin6	range	#F781BF	Gammaproteobacteria			
+wheatSN0D142.bin3	range	#F781BF	Gammaproteobacteria			
+wheatSN2D141.bin2	range	#F781BF	Gammaproteobacteria			
+wheatSN2D72.bin3	range	#FF7F00	Alphaproteobacteria			
+wheatSN0D141.bin19	range	#FF7F00	Alphaproteobacteria			
+wheatSN0D142.bin7	range	#FF7F00	Alphaproteobacteria			
+wheatSN0D1873.bin11	range	#984EA3	Myxococcota			
+wheatSN2D1871.bin4	range	#984EA3	Myxococcota			
+wheatSN0D141.bin8	range	#4DAF4A	Bacteroidota			
+wheatSN0D141.bin20	range	#4DAF4A	Bacteroidota			
+wheatSN2D141.bin15	range	#4DAF4A	Bacteroidota			
+wheatSN0D141.bin6	range	#4DAF4A	Bacteroidota			
+wheatSN2D1872.bin3	range	#4DAF4A	Bacteroidota			
+wheatSN2D141.bin11	range	#4DAF4A	Bacteroidota			
+wheatSN2D141.bin1	range	#4DAF4A	Bacteroidota			
+wheatSN0D141.bin16	range	#4DAF4A	Bacteroidota			

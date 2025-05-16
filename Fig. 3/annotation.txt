@@ -1,0 +1,69 @@
+Bin_name	Kingdoms	Phylum	Class	Order	Family	Genus	Species 	New
+wheatSN2D142.bin3	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus_D casseliflavus 	No
+wheatSN2D71.bin10	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus_D gallinarum 	No
+wheatSN2D73.bin10	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis 	No
+wheatSN2D72.bin6	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Desemzia	Desemzia incerta 	No
+wheatSN2D71.bin12	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus Bin12	Staphylococcus xylosus_B 	No
+wheatSN2D73.bin2	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus Bin2	Staphylococcus_A sciuri 	No
+wheatSN2D71.bin14	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus Bin 14	Staphylococcus_A lentus 	No
+wheatSN2D72.bin5	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus	Solibacillus silvestris 	No
+wheatSN2D71.bin16	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus Bin16	Bacillus subtilis 	No
+wheatSN2D142.bin9	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus Bin9	Bacillus altitudinis 	No
+wheatSN2D71.bin1	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae_D	Bacillus Bin1	Bacillus_H clausii 	No
+wheatSN2D73.bin7	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Corynebacterium	Corynebacterium stationis 	No
+wheatSN2D142.bin5	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Leucobacter	Leucobacter chromiiresistens_A 	No
+wheatSN2D141.bin6	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Dermabacteraceae	Brachybacterium	Brachybacterium paraconglomeratum 	No
+wheatSN0D73.bin6	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter johnsonii 	No
+wheatSN2D71.bin5	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter radioresistens 	No
+wheatSN2D142.bin12	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter ludwigii 	No
+wheatSN0D142.bin12	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter himalayensis 	No
+wheatSN0D02.bin1	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Pantoea	Pantoea agglomerans 	No
+wheatSN2D142.bin7	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Pantoea	Pantoea brenneri 	No
+wheatSN0D71.bin3	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Erwinia	Erwinia_B gerundensis 	No
+wheatSN2D143.bin1	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas geniculata 	No
+wheatSN0D143.bin6	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas maltophilia_P 	No
+wheatSN2D73.bin1	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii 	No
+wheatSN0D73.bin1	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium	Agrobacterium pusense 	No
+wheatSN2D141.bin3	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Ochrobactrum	Ochrobactrum intermedium 	No
+wheatSN2D143.bin4	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Ochrobactrum	Ochrobactrum_A pseudogrignonense 	No
+wheatSN2D141.bin16	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas sp002386585 	No
+wheatSN0D143.bin11	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Chryseobacterium	Chryseobacterium wanjuense 	No
+wheatSN2D142.bin2	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Sphingobacterium	Sphingobacterium mizutaii 	No
+wheatSN2D143.bin3	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Sphingobacterium	Sphingobacterium sp003627955 	No
+wheatSN0D142.bin6	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Pseudosphingobacterium	Pseudosphingobacterium jilunii 	No
+wheatSN2D71.bin20	Bacteria	Firmicutes	Bacilli	Bacillales	Amphibacillaceae	Oceanobacillus	 	Yes
+wheatSN2D72.bin9	Bacteria	Firmicutes	Bacilli	Bacillales	Amphibacillaceae	Ornithinibacillus	 	Yes
+wheatSN0D622.bin5	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Mycobacterium	 	Yes
+wheatSN0D621.bin5	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Mycobacterium	 	Yes
+wheatSN0D1873.bin10	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Mycobacterium	 	Yes
+wheatSN0D623.bin4	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Micromonosporaceae	Micromonospora	 	Yes
+wheatSN0D1873.bin4	Bacteria	Actinobacteriota	Actinomycetia	Streptomycetales	Streptomycetaceae	Streptomyces	 	Yes
+wheatSN0D72.bin5	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Microbacterium	 	Yes
+wheatSN2D141.bin12	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Microbacterium	 	Yes
+wheatSN2D621.bin1	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Microbacterium	 	Yes
+wheatSN0D1873.bin7	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Cellulomonadaceae	Promicromonospora	 	Yes
+wheatSN2D72.bin12	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Dermabacteraceae	Brachybacterium	 	Yes
+wheatSN0D1872.bin7	Bacteria	Actinobacteriota	Actinomycetia	Jiangellales	Jiangellaceae	Jiangella	 	Yes
+wheatSN2D622.bin7	Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Patulibacter	 	Yes
+wheatSN2D1871.bin11	Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Patulibacter	 	Yes
+wheatSN0D71.bin4	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	 	Yes
+wheatSN0D143.bin7	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	 	Yes
+wheatSN0D143.bin1	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Pseudoxanthomonas	 	Yes
+wheatSN0D623.bin1	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	ZC4RG30	 	Yes
+wheatSN0D1872.bin3	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Steroidobacter	 	Yes
+wheatSN2D1873.bin6	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Cupriavidus	 	Yes
+wheatSN0D142.bin3	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Bordetella	 	Yes
+wheatSN2D141.bin2	Bacteria	Gammaproteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Candidimonas	 	Yes
+wheatSN2D72.bin3	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudochrobactrum	 	Yes
+wheatSN0D141.bin19	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Kaistiaceae	Kaistia	 	Yes
+wheatSN0D142.bin7	Bacteria	Alphaproteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Camelimonas	 	Yes
+wheatSN0D1873.bin11	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	NIC37A-2	 	Yes
+wheatSN2D1871.bin4	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	PMG-095	 	Yes
+wheatSN0D141.bin8	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Myroides	 	Yes
+wheatSN0D141.bin20	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Myroides	 	Yes
+wheatSN2D141.bin15	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Moheibacter	 	Yes
+wheatSN0D141.bin6	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Moheibacter	 	Yes
+wheatSN2D1872.bin3	Bacteria	Bacteroidota	Bacteroidia	AKYH767		Unclassified 	 	Yes
+wheatSN2D141.bin11	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Sphingobacterium	 	Yes
+wheatSN2D141.bin1	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Sphingobacterium	 	Yes
+wheatSN0D141.bin16	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Niabella	 	Yes

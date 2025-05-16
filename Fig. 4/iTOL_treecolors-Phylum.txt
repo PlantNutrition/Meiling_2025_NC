@@ -1,0 +1,28 @@
+TREE_COLORS					
+SEPARATOR TAB					
+COLOR	#a6cee3				
+DATASET_LABEL	Phylum				
+LEGEND_COLORS	#a6cee3	#1f78b4	#b2df8a	#33a02c	#fb9a99
+LEGEND_LABELS	Actinobacteria	Alphaproteobacteria	Bacteroidetes	Firmicutes	Gammaproteobacteria
+LEGEND_SHAPES	1	1	1	1	1
+LEGEND_TITLE	Phylum				
+DATA					
+OTU4785	range	#33a02c	Firmicutes		
+OTU6500	range	#33a02c	Firmicutes		
+OTU6546	range	#33a02c	Firmicutes		
+OTU59	range	#33a02c	Firmicutes		
+OTU4774	range	#33a02c	Firmicutes		
+OTU6526	range	#33a02c	Firmicutes		
+OTU1566	range	#33a02c	Firmicutes		
+OTU4834	range	#1f78b4	Alphaproteobacteria		
+OTU17	range	#fb9a99	Gammaproteobacteria		
+OTU169	range	#b2df8a	Bacteroidetes		
+OTU4848	range	#a6cee3	Actinobacteria		
+OTU4692	range	#b2df8a	Bacteroidetes		
+OTU6474	range	#fb9a99	Gammaproteobacteria		
+OTU4787	range	#fb9a99	Gammaproteobacteria		
+OTU6464	range	#fb9a99	Gammaproteobacteria		
+OTU4708	range	#fb9a99	Gammaproteobacteria		
+OTU4723	range	#1f78b4	Alphaproteobacteria		
+OTU5824	range	#1f78b4	Alphaproteobacteria		
+OTU4776	range	#fb9a99	Gammaproteobacteria		

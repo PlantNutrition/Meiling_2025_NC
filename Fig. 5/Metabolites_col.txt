@@ -1,0 +1,9 @@
+	Strain	Treatment
+B50	AZ50	Autoclaved_AZ288
+B50S	AZ50	Active_AZ288
+B52	AZ52	Autoclaved_AZ288
+B52S	AZ52	Active_AZ288
+B103	AZ103	Autoclaved_AZ288
+B103S	AZ103	Active_AZ288
+B290	AZ290	Autoclaved_AZ288
+B290S	AZ290	Active_AZ288

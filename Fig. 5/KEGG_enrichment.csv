@@ -1,0 +1,41 @@
+ID,Pathway,Gene_num,Rich_factor,Padjust,Strain
+1,Ribosome,26,0.464285714,0,AZ50
+2,"Alanine, aspartate and glutamate metabolism",14,0.424242424,0.0029,AZ50
+3,Arginine biosynthesis,11,0.5,0.0042,AZ50
+4,Phosphotransferase system (PTS),12,0.428571429,0.0064,AZ50
+5,Pentose and glucuronate interconversions,11,0.407407407,0.0159,AZ50
+6,Lipoic acid metabolism,9,0.45,0.0175,AZ50
+7,Glyoxylate and dicarboxylate metabolism,11,0.323529412,0.0969,AZ50
+8,Fructose and mannose metabolism,9,0.333333333,0.1448,AZ50
+9,Cyanoamino acid metabolism,3,0.75,0.1342,AZ50
+10,RNA polymerase,3,0.6,0.2699,AZ50
+11,Histidine metabolism,13,0.684210526,0,AZ52
+12,Lipoic acid metabolism,10,0.5,0.0078,AZ52
+13,"Alanine, aspartate and glutamate metabolism",13,0.393939394,0.0105,AZ52
+14,Nitrogen metabolism,8,0.470588235,0.0319,AZ52
+15,Arginine biosynthesis,9,0.428571429,0.0283,AZ52
+16,Nonribosomal peptide structures,5,0.625,0.0414,AZ52
+17,Tryptophan metabolism,7,0.4375,0.0635,AZ52
+18,Phosphotransferase system (PTS),10,0.344827586,0.0653,AZ52
+19,Biotin metabolism,7,0.411764706,0.074,AZ52
+20,Fructose and mannose metabolism,9,0.333333333,0.1042,AZ52
+21,Lipoic acid metabolism,9,0.391304348,0.007,AZ103
+22,"Alanine, aspartate and glutamate metabolism",11,0.35483871,0.0072,AZ103
+23,Butanoate metabolism,8,0.380952381,0.0137,AZ103
+24,Oxidative phosphorylation,10,0.3125,0.0126,AZ103
+25,beta-Lactam resistance,5,0.555555556,0.0135,AZ103
+26,Nonribosomal peptide structures,3,1,0.0103,AZ103
+27,Lysine degradation,7,0.388888889,0.0137,AZ103
+28,Pentose and glucuronate interconversions,7,0.388888889,0.0137,AZ103
+29,Thiamine metabolism,7,0.35,0.0189,AZ103
+30,"Valine, leucine and isoleucine degradation",7,0.291666667,0.0542,AZ103
+31,Purine metabolism,13,0.270833333,0,AZ290
+32,Arginine biosynthesis,8,0.5,0,AZ290
+33,"Alanine, aspartate and glutamate metabolism",9,0.28125,0,AZ290
+34,Thiamine metabolism,7,0.35,0.0001,AZ290
+35,"Valine, leucine and isoleucine degradation",6,0.25,0.0024,AZ290
+36,Nonribosomal peptide structures,3,0.75,0.0025,AZ290
+37,Starch and sucrose metabolism,6,0.1875,0.0107,AZ290
+38,Lipoic acid metabolism,5,0.217391304,0.0118,AZ290
+39,Propanoate metabolism,6,0.176470588,0.0116,AZ290
+40,Tuberculosis,2,0.666666667,0.0237,AZ290

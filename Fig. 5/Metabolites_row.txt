@@ -1,0 +1,9 @@
+Metab 	metab 	Path
+N-Acetyl-D-Galactosamine	N-Acetyl-D-Galactosamine	Phosphotransferase system (PTS) 
+Fructosyl-Lysine 	Fructosyl-Lysine 	Phosphotransferase system (PTS) 
+N-Acetylmuramate 	N-Acetylmuramate 	Phosphotransferase system (PTS) 
+Fructose-6-Phosphate	Fructose-6-Phosphate	Fructose and mannose metabolism
+Gulonic Acid	Gulonic Acid	Fructose and mannose metabolism
+Adp-Glucose 	Adp-Glucose 	Starch and sucrose metabolism
+Myo-Inositol 	Myo-Inositol 	Galactose metabolism
+2-Isopropylmalic Acid 	2-Isopropylmalic Acid 	Pyruvate metabolism

@@ -1,0 +1,231 @@
+---
+title: "Fig.2 Diversity and composition of the microbial community in decomposing wheat residues over time"
+author: "Meiling Zhang"
+date: "2025/1/1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>")
+```
+
+# Fig. 2a
+
+```{r FEAST,eval=TRUE, include=TRUE}
+library(ggplot2)
+
+#FEAST data
+data=read.table("FEAST_data.csv",header = T, row.names=1,sep = ",")
+data$Source<-factor(data$Source,levels=c("Unknown","Straw","Soil"), labels = c("Unknown","Straw","Soil"))
+custom_labels <- c("0","7", "14", "62", "187")
+
+#plot
+p=ggplot(data, aes(x = Order, y = Value, fill = Source)) +
+  geom_area() +facet_wrap(~Treatment+Domain, ncol = 2, scale = 'fixed')+theme_bw()+scale_fill_manual(values=c("#878787","#F6B457","#009547"))+theme(panel.grid.major=element_blank(),panel.grid.minor=element_blank())+theme(legend.position = "none",text = element_text(size = 15))+scale_x_continuous(labels = custom_labels)+theme_classic()
+p
+
+group="FEAST"
+width = 230
+height = 110
+ggsave(paste0("",group,".pdf"), p, width = width, height = height,units = "mm")
+ggsave(paste0("",group,".JPEG"), p, width = width, height = height,units = "mm")
+```
+
+# Fig. 2b
+
+```{r qPCR,eval=TRUE, include=TRUE}
+library(ggplot2)
+library(cowplot)
+library(ggpubr)
+library(magrittr)
+library(dplyr)
+
+#Bact
+rate<-read.csv("bact_copies.csv",row.names = 1)
+mean<-aggregate(rate[,2],by=list(rate[,1]),FUN=mean)
+rownames(mean)<-mean[,1]
+sd<-aggregate(rate[,2],by=list(rate[,1]),FUN=sd)
+rownames(sd)<-sd[,1]
+data<-cbind(mean,sd)
+data<-data[,-3]
+colnames(data)<-c("Treatment","Mean","Se")
+data$Group <- c("N0","N2","N0","N2","N0","N2","N0","N2","raw")
+
+rate$Treatment<-factor(rate$Treatment,levels=c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"), labels =c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"))
+rate$Group<-factor(rate$Group,levels=c("raw","N0","N2"), labels =c("raw","N0","N2"))
+data$Treatment<-factor(data$Treatment,levels=c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"), labels =c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"))
+data$Group<-factor(data$Group,levels=c("raw","N0","N2"), labels =c("raw","N0","N2"))
+
+#plot
+p1=ggplot()+geom_bar(data=data,mapping=aes(x=Treatment,y=Mean,fill=Group),size = 1.2,alpha=1,position="dodge", stat="identity",width = 0.8)+       scale_color_manual(values=c("#4D4D4D","#BABABA","#B2182B"))+  scale_fill_manual(values=c("#4D4D4D","#BABABA","#B2182B"))+ geom_errorbar(data=data,aes(x = Treatment,ymin = Mean-Se, ymax = Mean+Se,color=Group), width = 0.3,size=0.5)+geom_jitter(data=rate,mapping=aes(x=Treatment,y=Copy),color="black",size = 0.5,height = 0.02,width = 0.2)+theme_classic()+ labs(y="Absolute abundance (Copies/g soil)", x="")+  theme(panel.grid.major=element_blank(),panel.grid.minor=element_blank())+  theme(axis.text=element_text(colour='black',size=11))+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p1
+
+#Fungi
+#data
+rate<-read.csv("fungi_copies.csv",row.names = 1)
+mean<-aggregate(rate[,2],by=list(rate[,1]),FUN=mean)
+rownames(mean)<-mean[,1]
+sd<-aggregate(rate[,2],by=list(rate[,1]),FUN=sd)
+rownames(sd)<-sd[,1]
+data<-cbind(mean,sd)
+data<-data[,-3]
+colnames(data)<-c("Treatment","Mean","Se")
+data$Group <- c("N0","N2","N0","N2","N0","N2","N0","N2","raw")
+
+rate$Treatment<-factor(rate$Treatment,levels=c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"), labels =c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"))
+rate$Group<-factor(rate$Group,levels=c("raw","N0","N2"), labels =c("raw","N0","N2"))
+data$Treatment<-factor(data$Treatment,levels=c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"), labels =c("raw","7_N0","7_N2","14_N0","14_N2","62_N0","62_N2","187_N0","187_N2"))
+data$Group<-factor(data$Group,levels=c("raw","N0","N2"), labels =c("raw","N0","N2"))
+
+#plot
+p2=ggplot()+geom_bar(data=data,mapping=aes(x=Treatment,y=Mean,fill=Group),size = 1.2,alpha=1,position="dodge", stat="identity",width = 0.8)+scale_color_manual(values=c("#4D4D4D","#BABABA","#B2182B"))+  scale_fill_manual(values=c("#4D4D4D","#BABABA","#B2182B"))+ geom_errorbar(data=data,aes(x = Treatment,ymin = Mean-Se, ymax = Mean+Se,color=Group), width = 0.3,size=0.5)+geom_jitter(data=rate,mapping=aes(x=Treatment,y=Copy),color="black",size = 0.5,height = 0.02,width = 0.2)+theme_classic()+ labs(y="Absolute abundance (Copies/g soil)", x="")+  theme(panel.grid.major=element_blank(),panel.grid.minor=element_blank())+  theme(axis.text=element_text(colour='black',size=11))+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p2
+
+qPCR <- plot_grid(p1,p2,ncol = 1,nrow=2,align ="h")
+qPCR
+group="qPCR"
+width = 100
+height = 170
+ggsave(paste0("",group,".pdf"), qPCR, width = width, height = height,units = "mm")
+ggsave(paste0("",group,".JPEG"), qPCR, width = width, height = height,units = "mm")
+```
+
+# Fig. 2c-d
+
+```{r relative abundance}
+library(ggplot2)
+library(reshape2)
+library(cowplot)
+
+#Bacteria
+design = read.table("tax_design.txt", header=T, row.names= 1, sep="\t")
+abundance = read.delim("otu_taxon_Genus.bactTop16_wheat.txt", row.names= 1,  header=T, sep="\t")
+idx = rownames(design) %in% colnames(abundance) 
+design = design[idx,]
+abundance= abundance[, rownames(design)] 
+
+abundance <- as.data.frame(t(abundance))
+data_design=cbind(abundance,design)
+melt_data <- melt(data_design,id.vars = c("Group","Time","Treatment","Method"),variable.name = "Tax",value.name = "RA")
+
+melt_data$Group<-factor(melt_data$Group,levels=c("W0","W0_M","W7N0","W7N0_M","W7N2","W7N2_M","W14N0","W14N0_M","W14N2","W14N2_M","W62N0","W62N0_M","W62N2","W62N2_M","W187N0","W187N0_M","W187N2","W187N2_M"), labels =c("W0","W0_M","W7N0","W7N0_M","W7N2","W7N2_M","W14N0","W14N0_M","W14N2","W14N2_M","W62N0","W62N0_M","W62N2","W62N2_M","W187N0","W187N0_M","W187N2","W187N2_M"))
+melt_data$Time<-factor(melt_data$Time,levels=c("d0","d7","d14","d62","d187"), labels =c("d0","d7","d14","d62","d187"))
+
+color <- c("white","#66B857","#F6B457","#DFE787","#D72816","#4E0625","#BCBCB9","#7F7E7A","#E3E3E2","#009547","#006A32","#FDF9C4","#EB6937","#AB1022","#7D6E2E","#FDE587","#ADD05B") 
+
+
+p1 = ggplot(melt_data, aes(Group,RA,fill=Tax)) + 
+  geom_bar(stat = "identity",width=0.7,color = 'black')+ 
+  xlab("Groups")+ylab("Relative abundance (%)") +theme_classic()+ theme(axis.text.x = element_text(angle = 45, hjust = 1))+facet_wrap( ~ Time+Method,scales="free_x",ncol=10)+scale_fill_manual(name = "Tax",values = color)+theme(legend.position = "bottom")
+p1
+
+
+#Fungi
+design = read.table("tax_design.txt", header=T, row.names= 1, sep="\t")
+abundance = read.delim("otu_taxon_Genus.fungiTop11_wheat.txt", row.names= 1,  header=T, sep="\t")
+
+idx = rownames(design) %in% colnames(abundance) 
+design = design[idx,]
+abundance= abundance[, rownames(design)] 
+
+abundance <- as.data.frame(t(abundance))
+data_design=cbind(abundance,design)
+melt_data <- melt(data_design,id.vars = c("Group","Time","Treatment","Method"),variable.name = "Tax",value.name = "RA")
+
+melt_data$Group<-factor(melt_data$Group,levels=c("W0","W0_M","W7N0","W7N0_M","W7N2","W7N2_M","W14N0","W14N0_M","W14N2","W14N2_M","W62N0","W62N0_M","W62N2","W62N2_M","W187N0","W187N0_M","W187N2","W187N2_M"), labels =c("W0","W0_M","W7N0","W7N0_M","W7N2","W7N2_M","W14N0","W14N0_M","W14N2","W14N2_M","W62N0","W62N0_M","W62N2","W62N2_M","W187N0","W187N0_M","W187N2","W187N2_M"))
+melt_data$Time<-factor(melt_data$Time,levels=c("d0","d7","d14","d62","d187"), labels =c("d0","d7","d14","d62","d187"))
+
+color <- c("white","#AB1022","#D72816","#006A32","#FDF9C4","#DEE687","#ADD05B","#66B857","#EB6937","#F6B458","#FDE587","#009547") 
+
+p2 = ggplot(melt_data, aes(Group,RA,fill=Tax)) + 
+  geom_bar(stat = "identity",width=0.7,color = 'black')+ 
+  xlab("Groups")+ylab("Relative abundance (%)") +theme_classic()+ theme(axis.text.x = element_text(angle = 45, hjust = 1))+facet_wrap( ~ Time+Method,scales="free_x",ncol=10)+scale_fill_manual(name = "Tax",values = color)+theme(legend.position = "bottom")
+p2
+
+
+RA <- plot_grid(p1,p2,ncol = 2,nrow=1,align ="h")
+RA
+
+group="RA"
+width = 350
+height = 140
+ggsave(paste0("",group,".pdf"), RA, width = width, height = height,units = "mm")
+ggsave(paste0("",group,".JPEG"), RA, width = width, height = height,units = "mm")
+```
+
+# Fig. 2e
+
+```{r cazy}
+library(ggplot2)
+library(cowplot)
+
+#data
+data <- read.delim('Bar_plot.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+
+#绘图
+sub_data=subset(data, data$Time%in% c("7d"))
+p1=ggplot(sub_data, mapping = aes(x=reorder(Genus,-RA),y=RA)) + 
+geom_bar(stat="identity",width=0.7,color="black",fill="white")+facet_wrap( ~ Time,scale="free",ncol=4)+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))+theme(legend.position = "none")+ylim(0,60)+ylab("Relative abundance (%)")+xlab("")
+p1
+
+sub_data=subset(data, data$Time%in% c("14d"))
+p2=ggplot(sub_data, mapping = aes(x=reorder(Genus,-RA),y=RA,fill=Genus)) + 
+geom_bar(stat="identity",width=0.7,color="black",fill="white")+facet_wrap( ~ Time,scale="free",ncol=4)+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))+theme(legend.position = "none")+ylim(0,40)+ylab("Relative abundance (%)")+xlab("")
+p2
+
+sub_data=subset(data, data$Time%in% c("62d"))
+p3=ggplot(sub_data, mapping = aes(x=reorder(Genus,-RA),y=RA,fill=Genus)) + 
+geom_bar(stat="identity",width=0.7,color="black",fill="white")+facet_wrap( ~ Time,scale="free",ncol=4)+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))+theme(legend.position = "none")+ylim(0,20)+ylab("Relative abundance (%)")+xlab("")
+p3
+
+sub_data=subset(data, data$Time%in% c("187d"))
+p4=ggplot(sub_data, mapping = aes(x=reorder(Genus,-RA),y=RA,fill=Genus)) + 
+geom_bar(stat="identity",width=0.7,color="black",fill="white")+facet_wrap( ~ Time,scale="free",ncol=4)+theme_classic()+theme(axis.text.x = element_text(angle = 45, hjust = 1))+theme(legend.position = "none")+ylim(0,40)+ylab("Relative abundance (%)")+xlab("")
+p4
+
+bar <- plot_grid(p1,p2,p3,p4,ncol = 4,nrow=1,align ="h",rel_widths = c(2,2,2,1.5))
+bar
+
+#volcano
+D7 <- read.delim('DESeq2_7d_new.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+D7$Time <- "D7"
+D14 <- read.delim('DESeq2_14d_new.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+D14$Time <- "D14"
+D62 <- read.delim('DESeq2_62d_new.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+D62$Time <- "D62"
+D187 <- read.delim('DESeq2_187d_new.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+D187$Time <- "D187"
+deseq_res=rbind(D7,D14,D62,D187)
+
+#classify the statistic groups according to ( |log2FC| >= 1 & FDR p-value < 0.05 )
+deseq_res$sig <- ifelse(abs(deseq_res$baseMean) >= 2 & deseq_res$padj <= 0.05, 'sig', 'nonsig')
+deseq_res$sig[is.na(deseq_res$sig)] <- "nonsig"
+deseq_res$group <- paste(deseq_res$id, deseq_res$sig, sep = "_")
+
+deseq_res$Time<-factor(deseq_res$Time,levels=c("D7", "D14","D62","D187"), labels = c("D7", "D14","D62","D187"))
+deseq_res$group<-factor(deseq_res$group,levels=c("AA_sig", "CBM_sig","CE_sig","GH_sig","GT_sig","PL_sig","AA_nonsig", "CBM_nonsig","CE_nonsig","GH_nonsig","GT_nonsig","PL_nonsig"), labels = c("AA_sig", "CBM_sig","CE_sig","GH_sig","GT_sig","PL_sig","AA_nonsig", "CBM_nonsig","CE_nonsig","GH_nonsig","GT_nonsig","PL_nonsig"))
+
+#vertical axis is Log10 Relative abundance
+volcano <- ggplot(deseq_res, aes(-log2FoldChange, log((100*baseMean / sum(deseq_res$baseMean)), 10))) +
+geom_point(aes(color = group), alpha = 0.6, size=1.8) +
+coord_cartesian(xlim=c(-10, 10),ylim=c(-5, 1)) +  
+scale_color_manual(values = c('#D9EF8B', '#91CF60','#FEE08B','#D73027', '#FC8D59','#1A9850','gray45', 'gray30',  'gray60', 'gray90', 'gray75', 'gray15')) +
+theme(panel.grid = element_blank(), panel.background = element_rect(color = 'black', fill = 'transparent')) +
+theme(legend.title = element_blank(), legend.key = element_rect(fill = 'transparent'), legend.background = element_rect(fill = 'transparent')) +
+geom_vline(xintercept = c(-1, 1), color = 'gray', size = 0.2) + 
+geom_hline(yintercept = log(0.01, 10), color = 'gray', size = 0.2) +
+labs(x = 'Log2 Fold Change', y = 'Log10 Relative abundance')+facet_wrap(. ~ Time, nrow = 1,ncol=4)
+volcano
+
+bar_volcano <- plot_grid(bar,volcano,ncol = 1,nrow=2,align ="h")
+bar_volcano
+
+group="bar_volcano"
+width = 200
+height = 150
+ggsave(paste0("",group,".pdf"), bar_volcano, width = width, height = height,units = "mm")
+ggsave(paste0("",group,".JPEG"), bar_volcano, width = width, height = height,units = "mm")
+```
+

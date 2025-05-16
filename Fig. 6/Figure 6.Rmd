@@ -1,0 +1,18 @@
+---
+title: "Fig. 6 The conceptual diagram of the interactions between nitrogen-stimulated decomposers and non-decomposers and its contribution to residue decomposition"
+author: "Meiling Zhang"
+date: "2025/1/1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>")
+```
+
+This figure is manually illustrated in Adobe Illustrator.
+![image](Fig. 6.png)
+
+
+
