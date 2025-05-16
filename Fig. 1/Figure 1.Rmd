@@ -1,0 +1,21 @@
+---
+title: "Fig. 1 Decomposition process of wheat residues in agricultural fields"
+author: "Meiling Zhang"
+date: "2025/1/1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>")
+```
+
+# Fig. 1a-b. The picture is drawn in the GraphPad Prism 8.0.2.
+# Fig. 1c. The picture is obtained by using scanning electron microscopy (SEM).
+
+This figure is manually combined in Adobe Illustrator.
+![image](Fig.1.png)
+
+
+
